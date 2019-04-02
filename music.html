@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html>
 	<link rel="stylesheet" type="text/css" href="reset.css">
+	 <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700i,900i|Raleway" rel="stylesheet">
 <head>
-	<title>ryan hunt | music</title>
+	<title>ryan hunt | listen</title>
 </head>
 <body>
 	<header>
-		<h1 class="title"><a href="about.html">ryan hunt</a></h1>
-		<nav>
-		<ul class="links">
-			<li class="links"><a class="links" href="about.html">about</a></li>
-			<li class="links"><a class="links" href="music.html">listen</a></li>
-			<li class="links"><a class="links" href="film.html">watch</a></li>
-			<li class="links"><a class="links" href="write.html">write</a></li>
-			<li class="links"><a class="links" href="press.html">press</a></li>
-			<li class="links"><a class="links" href="contact.html">contact</a></li>
-		</ul>
-	</nav>
+		<div class="row">
+			<div class="col m5 s12">	
+				<h1 class="title"><a href="about.html">ryan hunt</a></h1>
+			</div>
+			<div class="col m7 s12">
+				<nav class="z-depth-0">
+					<ul class="links" id="nav-mobile" class="right hide-on-med-and-down">
+						<li class="links"><a class="links" href="about.html">about</a></li>
+						<li class="links"><a class="links" href="music.html">listen</a></li>
+						<li class="links"><a class="links" href="film.html">watch</a></li>
+						<li class="links"><a class="links" href="write.html">read</a></li>
+						<li class="links"><a class="links" href="press.html">press</a></li>
+						<li class="links"><a class="links" href="contact.html">contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 	</header>
-	<div class="music">
-		<iframe class="music" src="https://open.spotify.com/embed/track/7ibLWC3woR4qvMQBhtOnqX" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-		<iframe class="music" src="https://open.spotify.com/embed/track/4Qm4VZv1AEDf1H5RqudSPD" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-		<iframe class="music" src="https://open.spotify.com/embed/album/1csKrKOPtG5TvKmvKtk82c" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-		<iframe class="music" src="https://open.spotify.com/embed/album/0sCBCwfuqtWqTuCNA9seGz" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+	<div class="container">
+		<div class="row">
+				<iframe class="col m4 s12" src="https://open.spotify.com/embed/track/7ibLWC3woR4qvMQBhtOnqX" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+				<iframe class="col m4 s12" src="https://open.spotify.com/embed/track/4Qm4VZv1AEDf1H5RqudSPD" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+				<iframe class="col m4 s12" src="https://open.spotify.com/embed/album/1csKrKOPtG5TvKmvKtk82c" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+				<iframe class="col m4 s12" src="https://open.spotify.com/embed/album/0sCBCwfuqtWqTuCNA9seGz" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+		</div>
 	</div>
 </body>
 </html>
