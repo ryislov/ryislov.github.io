@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<link rel="stylesheet" type="text/css" href="reset.css">
+	 <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700i,900i|Raleway" rel="stylesheet">
 <head>
@@ -8,26 +14,36 @@
 </head>
 <body>
 	<header>
-		<h1 class="title"><a href="about.html">ryan hunt</a></h1>
-		<nav>
-		<ul class="links">
-			<li class="links"><a class="links" href="about.html">about</a></li>
-			<li class="links"><a class="links" href="music.html">listen</a></li>
-			<li class="links"><a class="links" href="film.html">watch</a></li>
-			<li class="links"><a class="links" href="film.html">write</a></li>
-			<li class="links"><a class="links" href="press.html">press</a></li>
-			<li class="links"><a class="links" href="contact.html">contact</a></li>
-		</ul>
-	</nav>
+		<div class="row">
+			<div class="col m5 s12">	
+				<h1 class="title"><a href="about.html">ryan hunt</a></h1>
+			</div>
+			<div class="col m7 s12">
+				<nav class="z-depth-0">
+					<ul class="links" id="nav-mobile" class="right hide-on-med-and-down">
+						<li class="links"><a class="links" href="about.html">about</a></li>
+						<li class="links"><a class="links" href="music.html">listen</a></li>
+						<li class="links"><a class="links" href="film.html">watch</a></li>
+						<li class="links"><a class="links" href="write.html">read</a></li>
+						<li class="links"><a class="links" href="press.html">press</a></li>
+						<li class="links"><a class="links" href="contact.html">contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 	</header>
-	<div class="description">
-		<h3>SYNOPSIS</h3>
-		<p style="text-align: left;"><strong>SUNDAYS</strong> Sundays is one of those stories not often heard about in media: the story of a group of twenty-somethings in New York City.*</p>
-		<p>Calvin is one of those twenty-somethings, enjoying his lazy Sunday when he receives an invite to Mary’s brunch. Like, rude rich Mary. Ew. After some consultation with his best friend Arin, however, Calvin agrees to be one of the few people that brunch on Sunday in Brooklyn.**</p>
-		<p>The film is written, produced, and directed by Ryan Hunt. He tried his hardest.***</p>
-		<p>*[laugh here]</p>
-		<p>**[laugh again]</p>
-		<p>***[maybe also laugh here]</p>
+	<div class="container">
+		<div class="row">
+			<div class="col m10 offset-m1 s12">
+				<h3>SYNOPSIS</h3>
+				<p style="text-align: left;"><strong>SUNDAYS</strong> Sundays is one of those stories not often heard about in media: the story of a group of twenty-somethings in New York City.*</p>
+				<p>Calvin is one of those twenty-somethings, enjoying his lazy Sunday when he receives an invite to Mary’s brunch. Like, rude rich Mary. Ew. After some consultation with his best friend Arin, however, Calvin agrees to be one of the few people that brunch on Sunday in Brooklyn.**</p>
+				<p>The film is written, produced, and directed by Ryan Hunt. He tried his hardest.***</p>
+				<p>*[laugh here]</p>
+				<p>**[laugh again]</p>
+				<p>***[maybe also laugh here]</p>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
